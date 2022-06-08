@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battery indicator</title>
+
+    <!-- Remmix Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Css file link -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Goolge fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="battery">
+      <div class="battery__card">
+        <div class="battery__data">
+          <p class="battery__text">Battery</p>
+          <h1 class="battery__percentage">20%</h1>
+          <p class="battery__status">
+            low Battery<i class="ri-plug-2-line animated-green"></i>
+          </p>
+        </div>
+        <div class="battery__pill">
+          <div class="battery__level">
+            <div class="battery__liquid"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
